@@ -22,7 +22,7 @@ const EmptyResultsWrapper = styled('img')(
 );
 
 function WatchList() {
-  const [tabs, setTab] = useState<string | null>('watch_list_columns');
+  const [tabs, setTab] = useState<string | null>('');
 
   const handleViewOrientation = (
     _event: MouseEvent<HTMLElement>,

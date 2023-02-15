@@ -11,7 +11,8 @@ import {
   useTheme,
   Button,
   lighten,
-  darken
+  darken,
+  Typography
 } from '@mui/material';
 
 import SidebarMenu from './SidebarMenu';
@@ -57,11 +58,10 @@ function Sidebar() {
           <Box mt={3}>
             <Box
               mx={2}
-              sx={{
-                width: 52
-              }}
             >
-              <Logo />
+              <Typography variant='h2'>
+                Berusaha Cool
+              </Typography>
             </Box>
           </Box>
           <Divider

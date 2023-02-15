@@ -38,12 +38,11 @@ function Overview() {
   return (
     <OverviewWrapper>
       <Head>
-        <title>Tokyo Free White NextJS Typescript Admin Dashboard</title>
+        <title>Berusaha Cool</title>
       </Head>
       <HeaderWrapper>
         <Container maxWidth="lg">
           <Box display="flex" alignItems="center">
-            <Logo />
             <Box
               display="flex"
               alignItems="center"
@@ -54,30 +53,17 @@ function Overview() {
               <Box>
                 <Button
                   component={Link}
-                  href="/dashboards/crypto"
+                  href="/dashboards/berusaha"
                   variant="contained"
                   sx={{ ml: 2 }}
                 >
-                  Live Preview
+                  Open Dashboard
                 </Button>
               </Box>
             </Box>
           </Box>
         </Container>
       </HeaderWrapper>
-      <Hero />
-      <Container maxWidth="lg" sx={{ mt: 8 }}>
-        <Typography textAlign="center" variant="subtitle1">
-          Crafted by{' '}
-          <Link
-            href="https://bloomui.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            BloomUI.com
-          </Link>
-        </Typography>
-      </Container>
     </OverviewWrapper>
   );
 }
